@@ -25,7 +25,7 @@ function moveDodgerDown() {
     const bottomNumbers = dodger.style.bottom.replace("px", "");
     const bottom = parseInt(bottomNumbers, 10);
 
-    dodger.style.bottom = `${bottom - 1}px`; // ✅ Corrected
+    dodger.style.bottom = `${bottom - 1}px`; 
 }
 
 
